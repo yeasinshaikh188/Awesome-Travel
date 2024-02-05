@@ -211,6 +211,35 @@ background-color: lightblue;
     display: flex;
     align-items: center;
 }
+.place-text-section{
+    width: 100%;
+}
+.place-img-section{
+    width: 100%;
+}
+.footer-item-section{
+    background-color: cadetblue;
+    margin-top: 20px;
+}
+.title-section{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.footer-section{
+    text-align: center;
+}
+.img-section{
+    text-align: center;
+}
+.img-section img{
+    width: 40px;
+    
+}
+.align{
+    text-align: center;
+    margin-top: 30px;
+}
 
 /* responsive min device */
 @media screen and (max-width: 600px) {
@@ -299,6 +328,12 @@ background-color: lightblue;
         grid-template-columns: 1fr;
     }
     .discount-img-section img{
+        width: 100%;
+    }
+    .place-section{
+        flex-direction: column;
+    }
+    .place-img-section{
         width: 100%;
     }
 }
