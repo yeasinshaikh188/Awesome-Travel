@@ -133,6 +133,84 @@ main{
 .Maldives{
     width: 100%;
 }
+/* chose section */
+.Choese-section{
+    max-width: 1200px;
+}
+
+.choese-tex-section{
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+.chose-card-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+
+}
+.Chose-text-section{
+    background-color: burlywood;
+    width: 200px;
+    height: 200px;
+    padding: 60px;
+    border-radius: 10px;
+    
+}
+.card-img{
+    width: 40px;
+}
+.Chose-text-section p{
+    width: 200px;
+    margin-top: 30px;
+}
+.Chose-text-section h3{
+    margin-top: 20px;
+}
+.Chose-text-secnd-section{
+    background-color: lightcyan;
+    width: 200px;
+    height: 200px;
+    padding: 60px;
+    border-radius: 10px;
+    
+}
+.Chose-text-thired-section{
+background-color: lightblue;
+    width: 200px;
+    height: 200px;
+    padding: 60px;
+    border-radius: 10px;
+}
+.discount-text-section{
+    text-align: center;
+    margin: 30px 0;
+}
+.discount-img-section{
+    margin: 0 auto;
+    justify-content: center;
+}
+.discount-img-section{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.discount-img-section img{
+    width: 100%;
+}
+.btn-primary{
+    width: 100px;
+    height: 40;
+    background-color: yellow;
+    text-align: center;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    margin-top: 30px;
+}
+.place-section{
+    display: flex;
+    align-items: center;
+}
 
 /* responsive min device */
 @media screen and (max-width: 600px) {
@@ -214,7 +292,13 @@ main{
       width: 100%;
     }
     .destination-text{
-        margin-top: 10px;
-        margin-left: 50px;
+        /* margin-top: 10px;
+        margin-left: 50px; */
+    }
+    .chose-card-section{
+        grid-template-columns: 1fr;
+    }
+    .discount-img-section img{
+        width: 100%;
     }
 }
