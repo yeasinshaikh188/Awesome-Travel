@@ -22,7 +22,7 @@ header{
     margin-left: 20px;
 }
 .right-section{
-    border: 2px solid salmon;
+    /* border: 2px solid salmon; */
     width: 50%;
 }
 ul{
@@ -78,7 +78,7 @@ main{
 }
 .popular-section{
     max-width: 1200px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
