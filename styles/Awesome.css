@@ -57,18 +57,82 @@ ul li a{
   color: #fff;
   margin-bottom: 70px;
 }
-.banner-text input{
-   width: 150px;
-   height: 30px;
-   border-radius: 5px;
-   outline: none;
-   border: 2px solid #fff;
+.btn-container{
+    display: flex;
+    justify-content: center;
 }
-.btn-primary{
-    background-color: orange;
-    text-align: center;
+.input{
+    background-color: #fff;
+    height: 20px;
+    margin-left: 2em;
+    width: 10%;
+    padding: 10px 0 10px 0;
+    border-radius: 5px;
 }
 
+/* main section */
+main{
+    max-width: 1200px;
+    margin: 0;
+    padding: 0;
+}
+.popular-section{
+    max-width: 1200px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 20px;
+}
+.main-text-section {
+    display: block;
+    border: 2px solid rebeccapurple;
+    width: 50%;
+}
+.main-title{
+    margin-bottom: 40px;
+}
+.main-text-section ul {
+    display: block;
+}
+.main-description{
+    margin-top: 50px;
+}
+.main-text-section li{
+    margin-top: 50px;
+}
+
+.main-img-section{
+    width: 50%;
+}
+.main-img-section img{
+    width: 100%;
+}
+.main-btn{
+    width: 100px;
+    height: 40px;
+    background-color: orange;
+    outline: none;
+    border: 2px solid #fff;
+    margin-top: 30px;
+}
+/* destination styls */
+.destination-text{
+    text-align: center;
+    margin-top: 40px;
+}
+.destination-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+}
+.Indonessia{
+  width: 100%;
+}
+.Maldives{
+    width: 100%;
+}
 
 /* responsive min device */
 @media screen and (max-width: 600px) {
@@ -87,14 +151,16 @@ ul li a{
     }
     .banner-section img{
         width: 100%;
-        height: 500px;
+        height: 31.25rem;
         margin-top: 20px;
         position: relative;
         object-fit: cover;
+        border-radius: 10px;
     }
     .banner-text{
         position: absolute;
-        bottom: 350px;
+        bottom: 200px;
+        left: 60px;
         text-align: center;
     }
     .banner-text p{
@@ -104,12 +170,51 @@ ul li a{
     .banner-text h1{
         font-size: 30px;
     }
-    .banner-text input{
-        display: block;
-        width: 250px;
-        margin: 10px auto;
+    
+    .btn-container{
+        flex-direction: column;
+        /* justify-content: end; */
     }
-
-
-     
+    .input{
+        /* background-color: #fff; */
+        height: 20px;
+        margin-top: 10%;
+        width: 60%;
+        padding: 10px 0 10px 0;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .popular-section{
+        flex-direction: column;
+        width: 100%;
+        margin-top: 20px;
+        padding: 5px;
+        
+    
+    }
+    .main-img-section{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .main-img-section img{
+      width: 100%;
+    }
+    .main-text-section{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .destination-img{
+        grid-template-columns: 1fr;
+        padding: 5px;
+    }
+    .Indonessia{
+        width: 100%;
+    }
+    .Maldives{
+      width: 100%;
+    }
+    .destination-text{
+        margin-top: 10px;
+        margin-left: 50px;
+    }
 }
